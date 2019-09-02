@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block navigation %}
+
+<li class="page-scroll">
+    <a href="{% url 'account_redirect' %}">Profile</a>
+</li>
+<li class="page-scroll">
+    <a href="{% url 'logout' %}">Logout</a>
+</li>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron" align="center">
+    <h1>You are in!</h1>
+</div>
+
+{% endblock %}

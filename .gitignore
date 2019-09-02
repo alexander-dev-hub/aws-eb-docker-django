@@ -1,0 +1,25 @@
+.DS_Store
+ 
+*.py[cod]
+log
+
+*.zip
+*.log.txt
+
+# Local Database
+*.sqlite3
+ 
+# C extensions
+*.so
+
+*.pem
+
+# Other
+.idea/*
+.fabfile/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block js %}
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="{% static 'js/contact_me.js' %}"></script>
+{% endblock %}
+
+
+{% block navigation %}
+
+<li class="page-scroll">
+    <a href="{% url 'account_init' %}">Init</a>
+</li>
+<li class="page-scroll">
+    <a href="{% url 'login' %}">Login</a>
+</li>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron" align="center">
+    <h1>MySite</h1>
+    <h2>The next big thing!</h2>
+</div>
+
+{% endblock %}

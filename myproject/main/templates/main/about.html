@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block navigation %}
+
+<li class="page-scroll">
+    <a href="{% url 'login' %}">Login</a>
+</li>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron" align="center">
+    <h1>About this site</h1>
+</div>
+
+{% endblock %}
